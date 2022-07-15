@@ -1,0 +1,115 @@
+[
+  {
+    "id": "b23440c-b202-6f0d-84ee-2d06b5bb8dc1",
+    "name": "asdsad",
+    "desc": "asdsad",
+    "fields": {
+      "id": "998b8a89-0123-4456-b89a-b17f2c4236ab",
+      "type": "group",
+      "children1": {
+        "99b98abb-cdef-4012-b456-717f2c42424b": {
+          "type": "rule",
+          "properties": {
+            "field": "sadsad",
+            "operator": "equal",
+            "value": ["rtewtewtwet"],
+            "valueSrc": ["value"],
+            "valueType": ["text"]
+          }
+        },
+        "9b9a98aa-89ab-4cde-b012-317f2c425340": {
+          "type": "rule",
+          "properties": {
+            "field": "asdasd",
+            "operator": "equal",
+            "value": [123123123],
+            "valueSrc": ["value"],
+            "valueType": ["number"]
+          }
+        },
+        "a998aaba-cdef-4012-b456-717f2c45a429": {
+          "type": "rule",
+          "properties": {
+            "field": "sadsad",
+            "operator": "equal",
+            "value": ["dffdsfdsf"],
+            "valueSrc": ["value"],
+            "valueType": ["text"]
+          }
+        },
+        "a9a9989b-89ab-4cde-b012-317f2c45b573": {
+          "type": "rule",
+          "properties": {
+            "field": "asdasd",
+            "operator": "equal",
+            "value": [123123],
+            "valueSrc": ["value"],
+            "valueType": ["number"]
+          }
+        },
+        "88a98a9b-89ab-4cde-b012-317f2c470509": {
+          "type": "group",
+          "properties": { "conjunction": "AND" },
+          "children1": {
+            "98bb9aa9-4567-489a-bcde-f17f2c470509": {
+              "type": "rule",
+              "properties": {
+                "field": "sadsad",
+                "operator": "equal",
+                "value": ["sadsadsad"],
+                "valueSrc": ["value"],
+                "valueType": ["text"]
+              }
+            },
+            "9ab9a88b-0123-4456-b89a-b17f2c496823": {
+              "type": "rule",
+              "properties": {
+                "field": "asdasd",
+                "operator": "equal",
+                "value": [21313213],
+                "valueSrc": ["value"],
+                "valueType": ["number"]
+              }
+            }
+          }
+        }
+      }
+    },
+    "ruleLogicFormat": {
+      "and": [
+        { "==": [{ "var": "sadsad" }, "rtewtewtwet"] },
+        { "==": [{ "var": "asdasd" }, 123123123] },
+        { "==": [{ "var": "sadsad" }, "dffdsfdsf"] },
+        { "==": [{ "var": "asdasd" }, 123123] },
+        {
+          "and": [
+            { "==": [{ "var": "sadsad" }, "sadsadsad"] },
+            { "==": [{ "var": "asdasd" }, 21313213] }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "5d4b08-e372-b3b-a127-f5f145dfdd0a",
+    "name": "213123",
+    "desc": "3123123",
+    "fields": {
+      "id": "bb9baa9b-0123-4456-b89a-b17f2c502343",
+      "type": "group",
+      "children1": {
+        "9aabab9a-89ab-4cde-b012-317f2c5067db": {
+          "type": "rule",
+          "properties": {
+            "field": "dfsfdsfsd",
+            "operator": "equal",
+            "value": ["121212"],
+            "valueSrc": ["value"],
+            "valueType": ["text"]
+          }
+        }
+      }
+    },
+    "jsonLOGIC": { "and": [{ "==": [{ "var": "dfsfdsfsd" }, "121212"] }] }
+  }
+]

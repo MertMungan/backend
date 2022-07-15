@@ -1,0 +1,41 @@
+[
+  {
+    "eventId": "b23440c-b202-6f0d-84ee-2d06b5bb8dc1",
+    "eventName": "asdsad",
+    "eventDescription": "asdsad",
+    "fields": [
+      {
+        "eventDefination": "sadsad",
+        "eventType": "string",
+        "eventMinValue": "1",
+        "eventMaxValue": ""
+      },
+      {
+        "eventDefination": "asdasd",
+        "eventType": "number",
+        "eventMinValue": "1",
+        "eventMaxValue": "",
+        "isNumberSlider": false
+      }
+    ]
+  },
+  {
+    "eventId": "5d4b08-e372-b3b-a127-f5f145dfdd0a",
+    "eventName": "213123",
+    "eventDescription": "3123123",
+    "fields": [
+      {
+        "eventDefination": "dfsfdsfsd",
+        "eventType": "string",
+        "eventMinValue": "1",
+        "eventMaxValue": ""
+      }
+    ]
+  },
+  {
+    "eventId": "34f5a5e-3a64-cffc-7506-43b04bcdbbb",
+    "eventName": "test",
+    "eventDescription": "test",
+    "fields": []
+  }
+]
